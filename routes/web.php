@@ -44,6 +44,10 @@ Route::get('/contact', function () {
     return Inertia::render('Paginas/Contact');
 });
 
+Route::get('/teste', function () {
+    return Inertia::render('Paginas/teste');
+});
+
 Route::get('/member', function () {
     return Inertia::render('Paginas/Member');
 });
