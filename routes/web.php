@@ -51,6 +51,9 @@ Route::get('/teste', function () {
 Route::get('/member', function () {
     return Inertia::render('Paginas/Member');
 });
+Route::get('/erro', function () {
+    return Inertia::render('Paginas/erro');
+});
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
